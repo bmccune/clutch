@@ -1,30 +1,6 @@
-# [Bootstrap](http://getbootstrap.com) [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap) [![devDependency Status](https://david-dm.org/bmccune/clutch.png)](https://david-dm.org/bmccune/clutch#info=devDependencies)
+# [Clutch](http://getclutch.com) [![browser support](https://ci.testling.com/bmccune/clutch.png)](https://ci.testling.com/bmccune/clutch) [![devDependency Status](https://david-dm.org/bmccune/clutch.png)](https://david-dm.org/bmccune/clutch#info=devDependencies)
 
-Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).
-
-To get started, check out [http://getbootstrap.com](http://getbootstrap.com)!
-
-
-
-## Quick start
-
-Three quick start options are available:
-
-* [Download the latest release](https://github.com/twbs/bootstrap/releases/tag/v3.0.0).
-* Clone the repo: `git clone git://github.com/twbs/bootstrap.git`.
-* Install with [Bower](http://bower.io): `bower install bootstrap`.
-
-Read the [Getting Started page](http://getbootstrap.com/getting-started/) for information on the framework contents, templates and examples, and more.
-
-
-
-## Bugs and feature requests
-
-Have a bug or a feature request? [Please open a new issue](https://github.com/twbs/bootstrap/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas/).
-
-You may use [this JS Bin](http://jsbin.com/aKiCIDO/1/edit) as a template for your bug reports.
-
-
+To get started, check out [http://getclutch.com](http://getclutch.com)!
 
 ## Documentation
 
