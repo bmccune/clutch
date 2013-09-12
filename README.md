@@ -1,5 +1,6 @@
 # [Clutch](http://getclutch.com) 
 [![browser support](https://ci.testling.com/bmccune/clutch.png)](https://ci.testling.com/bmccune/clutch) 
+
 [![Build Status](https://travis-ci.org/bmccune/clutch.png?branch=master)](https://travis-ci.org/bmccune/clutch)
 [![devDependency Status](https://david-dm.org/bmccune/clutch.png)](https://david-dm.org/bmccune/clutch#info=devDependencies)
 
