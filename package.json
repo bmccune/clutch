@@ -37,11 +37,13 @@
   "testling": {
       "files": "js/test/*.js",
       "browsers": {
-          "ie": [ 8, 9 ],
-          "firefox": [ 13 ],
-          "chrome": [ 20 ],
+          "ie": [ 9, 10 ],
+          "firefox": [ 18, 19 ],
+          "chrome": [ 24, 25 ],
           "safari": [ 5.1 ],
-          "opera": [ 12 ]
+          "iphone": [ 6 ],
+          "ipad": [ 6 ],
+          "android-browser": [ 4.2 ]
      }
   }
 }
