@@ -5,7 +5,7 @@
   , "keywords": ["clutch", "css"]
   , "homepage": "http://getclutch.com"
   , "author": "McCUne Interactive, Inc."
-  , "scripts": { "test": "grunt test" }
+  , "scripts": { "test": "grunt" }
   , "repository": {
       "type": "git"
     , "url": "https://github.com/bmccune/clutch.git"
