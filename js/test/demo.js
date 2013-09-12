@@ -1,11 +1,12 @@
-var test = require('tape');
-var myCode = require('../my_code.js');
+var assert = require('assert');
 
-test('make sure my code works', function (t) {
-  t.plan(2);
-  t.equal(myCode.beep(5), 555);
-  
-  myCode.boop(333, function (n) {
-    t.equal(n, 3);
-  });
+var squareModule = require('../square.js');
+
+describe('integers', function () {
+    it('should square the numbers', function (done) {
+        assert.equal(squareModule(2), 4);
+        assert.equal(squareModule(3), 9);
+        
+        done();
+    });
 });
