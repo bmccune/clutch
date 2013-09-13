@@ -8,27 +8,21 @@ To get started, check out [http://getclutch.com](http://getclutch.com)!
 
 ## Documentation
 
-Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at [http://getclutch.com](http://getclutch.com). The docs may also be run locally.
+Clutch's documentation, included in this repo in the root directory, and publicly hosted at [http://getclutch.com](http://getclutch.com). The docs may also be run locally.
 
 ### Running documentation locally
 
-1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation) (requires v1.x).
-2. From the root `/bootstrap` directory, run `jekyll serve` in the command line.
-  - **Windows users:** run `chcp 65001` first to change the command prompt's character encoding ([code page](http://en.wikipedia.org/wiki/Windows_code_page)) to UTF-8 so Jekyll runs without errors.
-3. Open [http://localhost:9001](http://localhost:9001) in your browser, and voilà.
-
-Learn more about using Jekyll by reading their [documentation](http://jekyllrb.com/docs/home/).
 
 ## Compiling CSS and JavaScript
 
-Bootstrap uses [Grunt](http://gruntjs.com/) with convenient methods for working with the framework. It's how we compile our code, run tests, and more. To use it, install the required dependencies as directed and then run some Grunt commands.
+Clutch uses [Grunt](http://gruntjs.com/) with convenient methods for working with the framework. It's how we compile our code, run tests, and more. To use it, install the required dependencies as directed and then run some Grunt commands.
 
 ### Install Grunt
 
 From the command line:
 
 1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
-2. From the root `/bootstrap` directory, install the [necessary local dependencies](package.json) via `npm install`.
+2. From the root `/clutch` directory, install the [necessary local dependencies](package.json) via `npm install`.
 
 When completed, you'll be able to run the various Grunt commands provided from the command line.
 
