@@ -17,11 +17,21 @@ module.exports = function(grunt) {
       gruntfile: {
         src: 'Gruntfile.js'
       }
+    },
+    sass: {                              // Task
+        dist: {                            // Target
+            options: {                       // Target options
+                style: 'expanded'
+            },
+            files: {                         // Dictionary of files
+                'css/clutch.css': 'sass/clutch.scss'     // 'destination': 'source'
+            }
+        }
     }
   });
 
   // Default task.
-  grunt.registerTask('default', 'jshint');
+  grunt.registerTask('default', ['jshint', 'sass']);
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -30,6 +40,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-qunit');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-html-validation');
